@@ -63,7 +63,7 @@ spec:
           initialDelaySeconds: 5
           periodSeconds: 10
       - name: redis-master
-        image: quay.io/svetsa/redis:latest
+        image: quay.io/svetsa/redis:multiarch
         env:
           - name: MASTER
             value: "true"
