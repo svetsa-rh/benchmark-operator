@@ -127,7 +127,7 @@ spec:
                     default: false
                     type: boolean
                   image:
-                    default: "quay.io/cloud-bulldozer/backpack:latest"
+                    default: "quay.io/svetsa/backpack:multiarch"
                     type: string
                   label:
                     type: object
