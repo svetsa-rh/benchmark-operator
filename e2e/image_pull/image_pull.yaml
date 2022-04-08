@@ -14,5 +14,5 @@ spec:
       timeout: 60
       retries: 1
       image_list:
-        - docker://quay.io/cloud-bulldozer/backpack
+        - docker://quay.io/svetsa/backpack:multiarch
         - docker://quay.io/cloud-bulldozer/hello-openshift
