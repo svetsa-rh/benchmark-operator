@@ -69,6 +69,9 @@ spec:
             value: "true"
           - name: ALLOW_EMPTY_PASSWORD
             value: "yes"
+          - name: REDIS_AOF_ENABLED
+            value: "no"
+          
         ports:
           - containerPort: 6379
         resources:
